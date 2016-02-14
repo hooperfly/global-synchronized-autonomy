@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!--
+<script>
+function zeropad(value) {
+	if (value < 10)
+		return '0' + value;
+	else 
+		return value;
+}
+
+function cdtd() {
+	var launch = new Date("June 25, 2016 17:00:00 GMT");
+	var now = new Date();
+	var timeDiff = launch.getTime() - now.getTime();
+	if (timeDiff <= 0) {
+                clearTimeout(timer);
+		document.write("Launch is here!");
+		// Run any code needed for countdown completion here
+        }
+	var seconds = Math.floor(timeDiff / 1000);
+	var minutes = Math.floor(seconds / 60);
+	var hours = Math.floor(minutes / 60);
+	var days = Math.floor(hours / 24);
+	    hours %= 24;
+        minutes %= 60;
+        seconds %= 60;
+	document.getElementById("daysBox").innerHTML = days;
+	document.getElementById("hoursBox").innerHTML = zeropad(hours);
+	document.getElementById("minsBox").innerHTML = zeropad(minutes);
+	document.getElementById("secsBox").innerHTML = zeropad(seconds);
+	var timer = setTimeout('cdtd()',82);
+}
+</script>
+-->
+
+
+<style type="text/css">
+body {
+	background:url('loverobot_banner_date.png') #000000 no-repeat fixed center;
+	background-position: 100px 0px;
+	min-height: 720px;
+	min-width: 800px;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+
+.centerImage
+{
+text-align:center;
+display:block;
+}
+
+#inner {
+    position: absolute;
+    top: 210px;
+    z-index: 2;
+    width:400px;
+    margin-left:330px;
+    left:0;
+
+</style>
+
+<meta charset=utf-8>
+<title>Love Robot</title>
+</head>
+<body>
+<!--
+<a href="https://youtu.be/7E0ot9iJm_k" target="_blank"><img src="loverobot_link.png" class="centerImage" alt="love robot" height="24" width="142"></a>
+-->
+<!--
+Days:
+<div id="daysBox"></div>
+Hours:
+<div id="hoursBox"></div>
+Minutes:
+<div id="minsBox"></div>
+Seconds:
+<div id="secsBox"></div>
+<script>cdtd();</script>
+<br/>
+<br/>
+-->
+
+<a href="https://youtu.be/c_ErjSL2t-I" target="_blank" style="color:white; text-decoration:none">Video</a>
+<br/>
+
+<div id="inner"
+<!-- START COUNTDOWN -->
+<script src="countdown.js" type="text/javascript"></script>
+<script type="application/javascript">
+
+var myCountdownTest = new Countdown({
+								 	year	  : 2016,
+									month	  : 6, 
+									day		  : 25,
+									hour      : 5,
+									ampm      : "pm",
+									minute    : 0,
+									seconde   : 0,
+									timezone  : 0,
+									style     : "flip",
+									rangeHi   : "month",
+									hideLine  : true,
+									width	  : 300, 
+									height	  : 50,
+									labelText : {second : "SECS", minute : "MINS", hour : "HOURS", day : "DAYS", month : "MONTHS", year : "YEARS"},
+									numbers   : {font : "Courier New", color : "#FFFFFF"},
+									labels    : {font : "Courier New", color : "#FFFFFF", textScale : 1.25}
+									});
+
+
+
+</script>
+</div>
+
+
+</body>
+</html>
