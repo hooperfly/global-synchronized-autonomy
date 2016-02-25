@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style type="text/css">
+body {
+	background:url('loverobot_banner_date.png') #000000 no-repeat fixed center;
+	background-position: 100px 0px;
+	min-height: 720px;
+	min-width: 800px;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+
+
+#inner {
+    position: absolute;
+    top: 210px;
+    z-index: 2;
+    width:400px;
+    margin-left:330px;
+    left:0;
+
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>GSA 1 - Test Count</title>
+
+</head>
+
+<body>
+
+<div id="inner"
+
+<!-- START COUNTDOWN -->
+<script src="countdown.js"></script>
+
+<script>
+
+function launchHandler(result) {
+	
+	// Result is a javascript Date object, containing the deadline time.
+	//
+	// 		NOTES on the javascript Date object:
+	// 			- months are 0-11, not 1-12
+	// 			- "day" is day of the week (0-6) representing sunday-saturday
+	// 			- "date" is the day of the month (0-31)
+	
+	var year = result.getFullYear();
+	var month = result.getMonth() + 1; // bump by 1 for humans
+	var day = result.getDate();
+	var h = result.getHours();
+	var m = result.getMinutes();
+	var s = result.getSeconds();
+	
+	var UTC = result.toString();
+	
+	var output = "GSA 1 Launch Test Successful!\n\n";
+	output += UTC + "\n";
+	output += "year: " + year + "\n";
+	output += "month: " + month + "\n";
+	output += "day: " + day + "\n";
+	output += "h: " + h + "\n";
+	output += "m: " + m + "\n";
+	output += "s: " + s + "\n";
+	
+	alert(output);
+}
+
+var testCount = new Countdown({
+								time       : 5,
+								width	   : 300, 
+								height	   : 50,
+								style     : "flip",
+								rangeHi   : "month",
+								hideLine  : true,
+								width	  : 300, 
+								height	  : 50,
+								labelText : {second : "SECS", minute : "MINS", hour : "HOURS", day : "DAYS", month : "MONTHS", year : "YEARS"},
+								numbers   : {font : "Courier New", color : "#FFFFFF"},
+								labels    : {font : "Courier New", color : "#FFFFFF", textScale : 1.25},
+								onComplete : launchHandler
+								});
+
+
+
+</script>
+<!-- END COUNTDOWN -->
+
+</div>
+
+
+</body>
+</html>
