@@ -63,6 +63,14 @@ function launchHandler(result) {
 	output += "h: " + h + "\n";
 	output += "m: " + m + "\n";
 	output += "s: " + s + "\n";
+
+    var aReq = new XMLHttpRequest();
+    var bReq = new XMLHttpRequest();
+    var cReq = new XMLHttpRequest();
+
+    aReq.open("GET", 'http://192.168.1.8:5000/flightblock/217/3'); aReq.send();
+    bReq.open("GET", 'http://192.168.1.8:5000/flightblock/218/3'); bReq.send();
+    cReq.open("GET", 'http://192.168.1.8:5000/flightblock/219/3'); cReq.send(); 
 	
 	alert(output);
 }
