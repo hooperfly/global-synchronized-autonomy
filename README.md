@@ -19,7 +19,7 @@ The software contained in this `paparazzi` folder is designed to work seamlessly
 
 - Paparazzi
     - Launch Scripts
-        - paparazzi/testcount.html
-        - paparazzi/countdown.html
+        - [paparazzi/countdown.html](https://github.com/hooperfly/global-synchronized-autonomy/blob/master/paparazzi/countdown.html)
+        - [paparazzi/testcount.html](https://github.com/hooperfly/global-synchronized-autonomy/blob/master/paparazzi/testcount.html)
     - Flight Plans
         - see [HooperFly GSA Flight Plans](https://github.com/paparazzi/paparazzi/tree/master/conf/flight_plans/HOOPERFLY)

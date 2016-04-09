@@ -66,9 +66,9 @@ function launchHandler(result) {
 
 	// Paparazzi Flying Robot Commander Request Block
 
-    var frcReq = new XMLHttpRequest();
+	var frcReq = new XMLHttpRequest();
 
-    frcReq.open("GET", 'http://192.168.1.8:5000/flightblock/3'); frcReq.send();
+	frcReq.open("GET", 'http://192.168.1.8:5000/flightblock/3'); frcReq.send();
 	
 	// Pop up an alert dialog to verify trigger
 	alert(output);
