@@ -15,7 +15,7 @@ Credits:
 - GSA concept, development and activation **HooperFly** - [www.hooperfly.com](http://hooperfly.com)
 
 ## Paparazzi UAV Support
-The software contained in this `paparazzi` folder is designed to work seamlessly with the [Flying Robot Commander](https://github.com/paparazzi/flyingrobotcommander) via [PPRZLink](https://github.com/paparazzi/pprzlink).
+The software contained in the [paparazzi folder](https://github.com/hooperfly/global-synchronized-autonomy/tree/master/paparazzi) is designed to work seamlessly with the [Flying Robot Commander](https://github.com/paparazzi/flyingrobotcommander) via [PPRZLink](https://github.com/paparazzi/pprzlink).
 
 - Paparazzi
     - Launch Scripts
