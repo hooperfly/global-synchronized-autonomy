@@ -10,9 +10,9 @@ Website: [loverobot.org](http://loverobot.org/)
 
 Credits:
 
-- countdown.js and flipper images copyright **Mike Gieson** [www.gieson.com](http://www.gieson.com)
+- countdown.js and flipper images copyright **Mike Gieson** - [www.gieson.com](http://www.gieson.com)
 - GSA banner art adapted from art by [Tim Bonvallet](http://bonvallet.deviantart.com/)
-- GSA concept, development and activation **HooperFly** [www.hooperfly.com](http://hooperfly.com)
+- GSA concept, development and activation **HooperFly** - [www.hooperfly.com](http://hooperfly.com)
 
 ## Paparazzi UAV Support
 The software contained in this `paparazzi` folder is designed to work seamlessly with the [Flying Robot Commander](https://github.com/paparazzi/flyingrobotcommander) via [PPRZLink](https://github.com/paparazzi/pprzlink).
