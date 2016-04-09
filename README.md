@@ -8,10 +8,18 @@ Global Synchronzied Autonomy #1 is scheduled for June 25th, 2016 @ 17:00:00 UTC.
 
 Website: [loverobot.org](http://loverobot.org/)
 
-Note:
+Credits:
 
-- countdown.js and flipper images Copyright Mike Gieson [www.gieson.com](http://www.gieson.com)
+- countdown.js and flipper images copyright **Mike Gieson** [www.gieson.com](http://www.gieson.com)
 - GSA banner art adapted from art by [Tim Bonvallet](http://bonvallet.deviantart.com/)
+- GSA concept, development and activation **HooperFly** [www.hooperfly.com](http://hooperfly.com)
 
 ## Paparazzi UAV Support
-The scripts contained in this repo are designed to work seamlessly with the [Flying Robot Commander](https://github.com/paparazzi/flyingrobotcommander) via [PPRZLink](https://github.com/paparazzi/pprzlink).
+The software contained in this `paparazzi` folder is designed to work seamlessly with the [Flying Robot Commander](https://github.com/paparazzi/flyingrobotcommander) via [PPRZLink](https://github.com/paparazzi/pprzlink).
+
+- Paparazzi
+    - Launch Scripts
+        - paparazzi/testcount.html
+        - paparazzi/countdown.html
+    - Flight Plans
+        - see [HooperFly GSA Flight Plans](https://github.com/paparazzi/paparazzi/tree/master/conf/flight_plans/HOOPERFLY)

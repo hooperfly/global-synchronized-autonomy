@@ -4,7 +4,7 @@
 
 <style type="text/css">
 body {
-	background:url('loverobot_banner_date.png') #000000 no-repeat fixed center;
+	background:url('gsa_banner.png') #000000 no-repeat fixed center;
 	background-position: 100px 0px;
 	min-height: 720px;
 	min-width: 800px;
@@ -64,14 +64,13 @@ function launchHandler(result) {
 	output += "m: " + m + "\n";
 	output += "s: " + s + "\n";
 
-    var aReq = new XMLHttpRequest();
-    var bReq = new XMLHttpRequest();
-    var cReq = new XMLHttpRequest();
+	// Paparazzi Flying Robot Commander Request Block
 
-    aReq.open("GET", 'http://192.168.1.8:5000/flightblock/217/3'); aReq.send();
-    bReq.open("GET", 'http://192.168.1.8:5000/flightblock/218/3'); bReq.send();
-    cReq.open("GET", 'http://192.168.1.8:5000/flightblock/219/3'); cReq.send(); 
+    var frcReq = new XMLHttpRequest();
+
+    frcReq.open("GET", 'http://192.168.1.8:5000/flightblock/3'); frcReq.send();
 	
+	// Pop up an alert dialog to verify trigger
 	alert(output);
 }
 
